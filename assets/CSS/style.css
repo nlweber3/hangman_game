@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'nashvilleregular';
+    src: url('nashvill-webfont.woff2') format('woff2'),
+         url('nashvill-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	background-image: url("../images/moulin.png")
+}
+h1 {
+	font-family: 'nashvilleregular';
+	color: red;
+	font-size: 60px;
+	text-align: center;
+}
+.eastwood {
+	float: right;
+	margin-right: 10px;
+}
+#box {
+	border: white solid 2px; 
+	width: 20%;
+	background: black;
+	height: 500px;
+	display: block;
+}
+#box2 {
+	display: block;
+	margin-left: 60px;
+	border: white solid 2px;
+	width: 30%;
+	background: black;
+	height: 500px;
+	text-align: center;
+}
+#input {
+	height: 10px;
+	width: 100px;
+	margin-left: 40px;
+	margin-top: 40px; 
+}
+#guess {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.instructions {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	margin-left: 5px;
+	font-size: 30px;
+	position:relative;
+	text-align: center;
+	margin-top: 20px;
+}
+h2 {
+	text-align: center;
+}
+#guesscontainer {
+	color:white;
+	display:inline-block;
+	margin: 4px;
+	font-size: 40px;
+	text-align: center;
+}
+.lives {
+	font-family: 'Oswald', sans-serif;
+	color: red;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+}
+#wrongguesses {
+	color:white;
+	font-size: 30px;
+}

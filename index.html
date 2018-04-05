@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./assets/CSS/style.css">
+
+	<audio id="correctGuess">
+		<source src="./Assets/Audio/Western_noise.wav" type="audio/wav">
+		</audio>
+
+	<title>Hang 'Em High Hangman</title>
+
+	</head>
+
+
+<body>
+	<h1>Hang 'Em High Hangman</h1>
+
+		<img class="eastwood" src="./assets/images/Eastwood.jpg">
+
+	<div class="container">
+  <div class="row">
+    <div class="col-sm" id="box">
+    	<h2 class="instructions">INSTRUCTIONS</h2>
+      <p class="instructions"> Press any key to start </p>
+      <p class="instructions"> Choose a letter A-Z </p>
+      <div class="lives" id="livesremaining"></div>
+     <p class="instructions"> REFRESH PAGE TO PLAY AGAIN!</p>
+    </div>
+    <div class="col-sm" id="box2">
+    	<h3 class="instructions">GAME</h3>
+      <p class="instructions">Current Word</p>
+      <div id="guesscontainer">
+      </div>
+      <p class="instructions">Letters Guessed</p>
+      <div class-"instructions" id="wrongguesses"></div>
+    </div>
+  </div>
+</div>
+
+<script src="./assets/Javascript/game.js"></script>
+</body>
+</htm>
